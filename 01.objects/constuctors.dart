@@ -19,7 +19,7 @@ class Aluno extends AlunoModel {
   // }
 
   //Construtor enxuto 
-  Aluno(Map dados) : super.fromMap(dados);
+   Aluno(Map dados) : super.fromMap(dados);
 
   //Construtor nomeados
   //Aluno.novoConstrutor(this.nome);
@@ -28,6 +28,9 @@ class Aluno extends AlunoModel {
   //Alunos(String nome, int idade) 
   // : nome = nome,
   //   idade - idade;   
+
+
+  // Factory constructor - realziar lógicas de instanciação
 }
 
 void main () {
